@@ -1,0 +1,34 @@
+name: splice
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.6
+  animate_do: any
+  elevarm_ui: ^0.10.5
+  custom_pin_screen: any
+  persistent_bottom_nav_bar_v2: any
+  sticky_grouped_list: ^3.1.0
+  flutter_svg: any
+  icons_plus: ^5.0.0
+  u_credit_card: ^1.3.0
+  # babstrap_settings_screen: ^0.1.6
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+    - assets/svg/
+    - assets/fonts/
+  uses-material-design: true
+
