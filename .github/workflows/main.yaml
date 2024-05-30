@@ -1,9 +1,10 @@
+name: "Build & Release"
+
 on:
   push:
     - main
     - master
     - develop
-name: "Build & Release"
 job:
   build:
     name: Build & Release
