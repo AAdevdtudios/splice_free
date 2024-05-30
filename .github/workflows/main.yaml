@@ -6,7 +6,7 @@ on:
       - main
       - master
       - develop
-job:
+jobs:
   build:
     name: Build & Release
     runs-on: macos-latest
