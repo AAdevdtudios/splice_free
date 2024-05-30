@@ -36,7 +36,7 @@ class OtpView extends GetView<OtpController> {
                     child: Wrap(
                       children: [
                         const Text(
-                          "Plese confirm your PIN to access your SPLICE account. Not you?",
+                          "Please confirm your PIN to access your SPLICE account. Not you?",
                           style: TextStyle(
                             fontWeight: FontWeight.w300,
                             fontSize: 13,

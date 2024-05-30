@@ -6,4 +6,8 @@ class HomeController extends GetxController {
   // For Card Tab
   var currentView = 0.obs;
   var isVerified = false.obs;
+
+  // For Profile Tab
+  var notificationVal = true.obs;
+  var biometric = true.obs;
 }

@@ -12,6 +12,7 @@ abstract class Routes {
   static const BIOMETRIC = _Paths.BIOMETRIC;
   static const WELCOME = _Paths.WELCOME;
   static const CARD_REQUEST = _Paths.CARD_REQUEST;
+  static const PROFILE_HANDLER = _Paths.PROFILE_HANDLER;
 }
 
 abstract class _Paths {
@@ -25,4 +26,5 @@ abstract class _Paths {
   static const BIOMETRIC = '/biometric';
   static const WELCOME = '/welcome';
   static const CARD_REQUEST = '/card-request';
+  static const PROFILE_HANDLER = '/profile-handler';
 }

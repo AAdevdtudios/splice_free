@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:icons_plus/icons_plus.dart';
 import 'package:splice/app/data/classes/service_class.dart';
 import 'package:splice/app/data/classes/tab_data.dart';
+import 'package:splice/app/data/classes/tire_class.dart';
 import 'package:splice/app/data/classes/transaction_list_class.dart';
 import 'package:splice/app/modules/home/views/card_tab_view.dart';
 import 'package:splice/app/modules/home/views/history_tab_view.dart';
@@ -25,6 +26,33 @@ const elevarmVariantLinkPrimaryButton = ElevarmLinkButtonThemeData(
 );
 
 // List Items
+List<TireClass> tireItems = [
+  TireClass(
+    tire: "Tire 1",
+    firstLimitType: "Daily transaction Limit",
+    firstAmount: "50,000",
+    secondLimitType: "Maximum Balance",
+    secondAmount: "300,000",
+    color: 0xffCD7F32,
+  ),
+  TireClass(
+    tire: "Tire 2",
+    firstLimitType: "Daily transaction Limit",
+    firstAmount: "200,000",
+    secondLimitType: "Maximum Balance",
+    secondAmount: "500,000",
+    color: 0xffC0C0C0,
+  ),
+  TireClass(
+    tire: "Tire 3",
+    firstLimitType: "Daily transaction Limit",
+    firstAmount: "5,000,000",
+    secondLimitType: "Maximum Balance",
+    secondAmount: "Unlimited",
+    color: 0xffffd700,
+  ),
+];
+
 List<TabData> homeTabs = [
   TabData(
     activeIcon: Icons.home,

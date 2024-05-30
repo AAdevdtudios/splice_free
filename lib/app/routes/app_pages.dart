@@ -10,6 +10,8 @@ import '../modules/Handler/bindings/handler_binding.dart';
 import '../modules/Handler/views/handler_view.dart';
 import '../modules/OTP/bindings/otp_binding.dart';
 import '../modules/OTP/views/otp_view.dart';
+import '../modules/ProfileHandler/bindings/profile_handler_binding.dart';
+import '../modules/ProfileHandler/views/profile_handler_view.dart';
 import '../modules/SignUp/bindings/sign_up_binding.dart';
 import '../modules/SignUp/views/sign_up_view.dart';
 import '../modules/Welcome/bindings/welcome_binding.dart';
@@ -71,6 +73,11 @@ class AppPages {
       name: _Paths.CARD_REQUEST,
       page: () => const CardRequestView(),
       binding: CardRequestBinding(),
+    ),
+    GetPage(
+      name: _Paths.PROFILE_HANDLER,
+      page: () => const ProfileHandlerView(),
+      binding: ProfileHandlerBinding(),
     ),
   ];
 }

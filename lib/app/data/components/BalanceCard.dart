@@ -95,8 +95,10 @@ class BalanceCard extends StatelessWidget {
               Expanded(
                 flex: 2,
                 child: ListButton(
-                  icon: LineAwesome.wallet_solid,
-                  name: "Bills",
+                  icon: cardType == CardType.threeButton
+                      ? LineAwesome.wallet_solid
+                      : EvaIcons.diagonal_arrow_left_down,
+                  name: cardType == CardType.threeButton ? "Bills" : "Receive",
                   onTap: () {},
                 ),
               ),

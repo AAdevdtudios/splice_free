@@ -88,7 +88,7 @@ class SignUpView extends GetView<SignUpController> {
                   child: SizedBox(
                     width: double.infinity,
                     child: ElevarmPrimaryButton.text(
-                      text: 'Sign In',
+                      text: 'Sign Up',
                       height: 70,
                       buttonThemeData: elevarmPrimaryButton,
                       onPressed: () =>

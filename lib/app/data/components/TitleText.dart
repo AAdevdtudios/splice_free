@@ -6,13 +6,19 @@ import 'package:splice/app/data/constData/constData.dart';
 class TitleText extends StatelessWidget {
   final String text;
   final double? fontSize;
+  final bool useAnimation;
 
   const TitleText(
-      {super.key, required this.text, this.fontSize = ElevarmFontSizes.xl4});
+      {super.key,
+      required this.text,
+      this.fontSize = ElevarmFontSizes.xl4,
+      this.useAnimation = true});
 
   @override
   Widget build(BuildContext context) {
     return FadeInDown(
+      duration:
+          useAnimation ? const Duration(milliseconds: 800) : Duration.zero,
       child: Text(
         text.toUpperCase(),
         style: TextStyle(
